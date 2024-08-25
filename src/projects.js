@@ -33,3 +33,37 @@ function filterProjects(filter){
      projectsContainer.classList.remove('anim-out')
  },250)
 }
+
+// const options ={
+//     // rootMargin :'-100px',
+//     threshold : 0.7,
+// }
+
+// let observer = new IntersectionObserver((sections)=>{
+//     sections.forEach((section) =>{
+//         if(section.isIntersecting){
+//             console.log(section.target.id)
+//             headerMenuItems.forEach(headerMenuItem=>{
+//                 // console.log('data'+ headerMenuItem.dataset.type)
+//                 if(section.target.id === headerMenuItem.dataset.type){
+//                     console.log('id'+ section.target.id , 'data'+headerMenuItem.dataset.type)
+//                     headerMenuItem.classList.add('active');
+//                 }else{
+//                     headerMenuItem.classList.remove('active')
+//                 }
+//             })
+//         }else{
+//             // console.log('bye')
+//             return
+//         }
+//     }
+//     )
+// },  options );
+// const sections = document.querySelectorAll('.section');
+// let sectionActive = document.querySelector('.active');
+
+// sections.forEach((section)=>{
+//     observer.observe(section)
+// })
+
+// const headerMenuItems = document.querySelectorAll('.header__menu__item');
